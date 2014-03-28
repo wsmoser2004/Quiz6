@@ -22,6 +22,7 @@
 		EF8B2C9618E5F8D40082CF4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8B2C7518E5F8D40082CF4F /* UIKit.framework */; };
 		EF8B2C9E18E5F8D40082CF4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF8B2C9C18E5F8D40082CF4F /* InfoPlist.strings */; };
 		EF8B2CA018E5F8D40082CF4F /* Quiz6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B2C9F18E5F8D40082CF4F /* Quiz6Tests.m */; };
+		EF8B2CAB18E603B90082CF4F /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B2CAA18E603B90082CF4F /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		EF8B2C9B18E5F8D40082CF4F /* Quiz6Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz6Tests-Info.plist"; sourceTree = "<group>"; };
 		EF8B2C9D18E5F8D40082CF4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF8B2C9F18E5F8D40082CF4F /* Quiz6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz6Tests.m; sourceTree = "<group>"; };
+		EF8B2CA918E603B90082CF4F /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		EF8B2CAA18E603B90082CF4F /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,14 +118,16 @@
 		EF8B2C7718E5F8D40082CF4F /* Quiz6 */ = {
 			isa = PBXGroup;
 			children = (
+				EF8B2C8C18E5F8D40082CF4F /* Images.xcassets */,
+				EF8B2C8318E5F8D40082CF4F /* Main.storyboard */,
 				EF8B2C8018E5F8D40082CF4F /* Quiz6AppDelegate.h */,
 				EF8B2C8118E5F8D40082CF4F /* Quiz6AppDelegate.m */,
-				EF8B2C8318E5F8D40082CF4F /* Main.storyboard */,
-				EF8B2C8618E5F8D40082CF4F /* Quiz6MasterViewController.h */,
-				EF8B2C8718E5F8D40082CF4F /* Quiz6MasterViewController.m */,
 				EF8B2C8918E5F8D40082CF4F /* Quiz6DetailViewController.h */,
 				EF8B2C8A18E5F8D40082CF4F /* Quiz6DetailViewController.m */,
-				EF8B2C8C18E5F8D40082CF4F /* Images.xcassets */,
+				EF8B2C8618E5F8D40082CF4F /* Quiz6MasterViewController.h */,
+				EF8B2C8718E5F8D40082CF4F /* Quiz6MasterViewController.m */,
+				EF8B2CA918E603B90082CF4F /* Task.h */,
+				EF8B2CAA18E603B90082CF4F /* Task.m */,
 				EF8B2C7818E5F8D40082CF4F /* Supporting Files */,
 			);
 			path = Quiz6;
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8B2CAB18E603B90082CF4F /* Task.m in Sources */,
 				EF8B2C8818E5F8D40082CF4F /* Quiz6MasterViewController.m in Sources */,
 				EF8B2C8218E5F8D40082CF4F /* Quiz6AppDelegate.m in Sources */,
 				EF8B2C7E18E5F8D40082CF4F /* main.m in Sources */,
